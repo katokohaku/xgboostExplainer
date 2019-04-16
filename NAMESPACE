@@ -3,6 +3,8 @@
 export(buildExplainer)
 export(explainPredictions)
 export(showWaterfall)
+export(summaryBreakdown)
+export(waterfallBreakdown)
 import(data.table)
 import(ggplot2)
 import(scales)

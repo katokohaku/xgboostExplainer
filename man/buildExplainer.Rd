@@ -4,8 +4,8 @@
 \alias{buildExplainer}
 \title{Step 1: Build an xgboostExplainer}
 \usage{
-buildExplainer(xgb.model, trainingData, type = "binary", base_score = 0.5,
-  trees_idx = NULL)
+buildExplainer(xgb.model, trainingData, type = "binary",
+  base_score = 0.5, trees_idx = NULL)
 }
 \arguments{
 \item{xgb.model}{A trained xgboost model}
